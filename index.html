@@ -3,13 +3,22 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/index.css">
+
     <title>bluetooth</title>
   </head>
   <body>
-    <div id="cordov">
-    </div>
-    <div id="app">      
-    </div>
+    <div id="app"></div>
     <!-- built files will be auto injected -->
+    <div class="appcordova">
+      <h1>Apache Cordova</h1>
+      <div id="deviceready" class="blink">
+        <p class="event listening">Connecting to Device</p>
+        <p class="event received">Device is Ready</p>
+      </div>
+    </div>
+    <!-- <script src="../cordova.js"></script> -->
+    <script type="text/javascript" src="../cordova.js"></script>
+    <script type="text/javascript" src="../js/index.js"></script>
   </body>
 </html>

@@ -1,10 +1,7 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png">
-    <router-view/>
-    <div id="cordov">
-    <img src="./assets/logo.png">
-    <router-view/>
+    <router-view/>    
   </div>
   </div>
 </template>
