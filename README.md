@@ -16,6 +16,9 @@ npm run build
 # Para levantar un servidor local en localhost:8080 y probar los cambios en caliente (serve with hot reload at localhost:8080)
 npm run dev
 
+# Para agregar la plataforma android.  
+cordova platform add cordova
+
 #  Para probar si la compilacion es correcta y da como resultado el .apk
 cordova build android
 
