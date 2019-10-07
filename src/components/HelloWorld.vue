@@ -10,6 +10,7 @@
         >
           Vista Cordova
         </a>
+        <router-link to="/cordovarouter" tag="button">Go to ApacheCordova </router-link>
       </li>
       <li>
         <a

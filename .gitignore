@@ -16,3 +16,5 @@ yarn-error.log*
 # Cordova
 platforms/
 plugins/
+# Esta carpeta "dist/" la ignoro porque siempre cambia/regenera constantemente al ejecutar el comando #npm run build
+www/dist/ 
