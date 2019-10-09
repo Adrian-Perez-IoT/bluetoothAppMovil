@@ -15,7 +15,7 @@ export default new Router({
       component: CordovaComponent */
     },
     {
-      path: '/cordovarouter',
+      path: '/cordova',
       name: 'CordovaComponent',
       component: CordovaComponent
     }

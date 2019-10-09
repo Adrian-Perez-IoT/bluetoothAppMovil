@@ -1,12 +1,14 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png">
-    <router-view/>    
+    <!-- <router-view/>     -->
+    <CordovaComponent></CordovaComponent>
   </div>
   </div>
 </template>
 
 <script>
+import { CordovaComponent } from "@/components/CordovaComponent";
 export default {
   name: 'App'
 }
